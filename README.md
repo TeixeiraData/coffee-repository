@@ -18,3 +18,10 @@ Create a new column by assigning the output to the DataFrame with a new column n
 Operations are element-wise, no need to loop over rows.
 
 Use rename with a dictionary or function to rename row labels or column names.
+
+REMEMBER
+Aggregation statistics can be calculated on entire columns or rows
+
+groupby provides the power of the split-apply-combine pattern
+
+value_counts is a convenient shortcut to count the number of entries in each category of a variable
