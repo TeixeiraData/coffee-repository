@@ -25,3 +25,10 @@ Aggregation statistics can be calculated on entire columns or rows
 groupby provides the power of the split-apply-combine pattern
 
 value_counts is a convenient shortcut to count the number of entries in each category of a variable
+
+REMEMBER
+Sorting by one or more columns is supported by sort_values
+
+The pivot function is purely restructuring of the data, pivot_table supports aggregations
+
+The reverse of pivot (long to wide format) is melt (wide to long format)
