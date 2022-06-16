@@ -32,3 +32,11 @@ Sorting by one or more columns is supported by sort_values
 The pivot function is purely restructuring of the data, pivot_table supports aggregations
 
 The reverse of pivot (long to wide format) is melt (wide to long format)
+
+Valid date strings can be converted to datetime objects using to_datetime function or as part of read functions.
+
+Datetime objects in pandas support calculations, logical operations and convenient date-related properties using the dt accessor.
+
+A DatetimeIndex contains these date-related properties and supports convenient slicing.
+
+Resample is a powerful method to change the frequency of a time series.
