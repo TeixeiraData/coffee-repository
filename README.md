@@ -40,3 +40,6 @@ Datetime objects in pandas support calculations, logical operations and convenie
 A DatetimeIndex contains these date-related properties and supports convenient slicing.
 
 Resample is a powerful method to change the frequency of a time series.
+
+
+Uma ideia para se analisar nesse ponto é sobre oque posso melhor epoca de valorizacao, pois tem momentos que apesar do valor ser alto entre abertur e fechamento o volume é baixo de acoes negociadas. 
